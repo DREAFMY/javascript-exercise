@@ -7,6 +7,7 @@ export default class worker extends Person {
     super(name, age);
   }
 
+  // eslint-disable-next-line
   introduce() {
     return 'I am a Worker. I have a job.';
   }

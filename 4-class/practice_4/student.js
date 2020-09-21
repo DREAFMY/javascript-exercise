@@ -4,7 +4,7 @@ import Person from './person';
 export default class Student extends Person {
   constructor(name, age, sclass) {
     super(name, age);
-    this.klass = sclass;
+    this.sclass = sclass;
   }
 
   introduce() {

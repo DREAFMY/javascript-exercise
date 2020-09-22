@@ -2,12 +2,12 @@
 import Person from './person';
 
 export default class Student extends Person {
-  constructor(name, age, sclass) {
+  constructor(name, age, klass) {
     super(name, age);
-    this.sclass = sclass;
+    this.klass = klass;
   }
 
   introduce() {
-    return `${super.introduce()} I am a Student. I am at Class ${this.sclass}.`;
+    return `${super.introduce()} I am a Student. I am at Class ${this.klass}.`;
   }
 }
